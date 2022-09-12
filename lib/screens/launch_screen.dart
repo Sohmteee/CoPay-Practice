@@ -13,7 +13,14 @@ class LaunchScreen extends StatelessWidget {
           child: Column(
             children: [
               Image.asset("assets/images/copay_logo.png"),
-              Text("Co.Payment")
+              Row(
+                children: const [
+                  Text("Co",
+                  style: TextSttyl,),
+                  Text(".Payment",
+                  style: TextSttyl,)
+                ],
+              )
             ],
           ),
         ),
