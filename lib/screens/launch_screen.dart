@@ -9,7 +9,9 @@ class LaunchScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: primaryColor,
       body: SafeArea(
-        child: 
+        child: Center(
+          child: Image.asset("assets/images/copay_logo.png"),
+        ),
       ),
     );
   }
