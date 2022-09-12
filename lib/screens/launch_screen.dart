@@ -6,10 +6,10 @@ class LaunchScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SafeArea(
-      top: false,
-      child: Scaffold(
-        backgroundColor: primaryColor,
+    return Scaffold(
+      backgroundColor: primaryColor,
+      body: SafeArea(
+        child: 
       ),
     );
   }
