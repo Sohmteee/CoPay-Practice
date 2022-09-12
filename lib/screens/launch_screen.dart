@@ -9,31 +9,31 @@ class LaunchScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: primaryColor,
       body: SafeArea(
-        child: Center(
-          child: Column(
-            children: [
-              Image.asset("assets/images/copay_logo.png"),
-              Row(
-                children: const [
-                  Text(
-                    "Co",
-                    style: TextStyle(
-                      fontFamily: "Roboto",
-                      color: Colors.black,
-                      fontSize: 32,
-                    ),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Image.asset("assets/images/copay_logo.png"),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: const [
+                Text(
+                  "Co",
+                  style: TextStyle(
+                    fontFamily: "Roboto",
+                    color: Colors.black,
+                    fontSize: 32,
                   ),
-                  Text(
-                    ".Payment",
-                    style: TextStyle(
-                      color: Colors.white,
-                      fontSize: 32,
-                    ),
-                  )
-                ],
-              )
-            ],
-          ),
+                ),
+                Text(
+                  ".Payment",
+                  style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 32,
+                  ),
+                )
+              ],
+            )
+          ],
         ),
       ),
     );
