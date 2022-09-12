@@ -1,3 +1,4 @@
+import 'package:copay/static/colors.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Co.Pay',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: primaryColor,
       ),
       home: const MyHomePage(title: 'Flutter Demo Home Page'),
     );
