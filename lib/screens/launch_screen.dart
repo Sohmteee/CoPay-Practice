@@ -10,7 +10,12 @@ class LaunchScreen extends StatelessWidget {
       backgroundColor: primaryColor,
       body: SafeArea(
         child: Center(
-          child: Image.asset("assets/images/copay_logo.png"),
+          child: Column(
+            children: [
+              Image.asset("assets/images/copay_logo.png"),
+              Text("Co.Payment")
+            ],
+          ),
         ),
       ),
     );
