@@ -1,0 +1,1 @@
+const primaryColor = Color(1DAB87)
