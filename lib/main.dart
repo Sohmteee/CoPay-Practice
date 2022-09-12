@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Co.Pay',
       theme: ThemeData(
-        primarySwatch: ,
+        primarySwatch: MaterialColor(primaryColor, swatch),
       ),
       home: const MyHomePage(title: 'Flutter Demo Home Page'),
     );
