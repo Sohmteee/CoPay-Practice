@@ -15,7 +15,12 @@ class _OnBoardingState extends State<OnBoarding> {
         child: Column(
           children: [
             Row(
-              children: [TextButton(onPressed: () {}, child: child)],
+              children: [
+                TextButton(
+                  onPressed: () {},
+                  child: const Text("Skip"),
+                )
+              ],
             ),
           ],
         ),
