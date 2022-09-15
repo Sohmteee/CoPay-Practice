@@ -11,6 +11,7 @@ class _OnBoardingState extends State<OnBoarding> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       body: SafeArea(
         child: Column(
           children: [
@@ -18,7 +19,10 @@ class _OnBoardingState extends State<OnBoarding> {
               children: [
                 TextButton(
                   onPressed: () {},
-                  child: const Text("Skip"),
+                  child: const Text(
+                    "Skip",
+                    st
+                  ),
                 )
               ],
             ),
