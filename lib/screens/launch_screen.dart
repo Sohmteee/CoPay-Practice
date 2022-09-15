@@ -20,6 +20,7 @@ class LaunchScreen extends StatelessWidget {
                   "Co",
                   style: TextStyle(
                     color: Colors.black,
+                    fontWeight: FontWeight.bold,
                     fontSize: 32,
                   ),
                 ),
@@ -27,6 +28,7 @@ class LaunchScreen extends StatelessWidget {
                   ".Payment",
                   style: TextStyle(
                     color: Colors.white,
+                    fontWeight: FontWeight.bold,
                     fontSize: 32,
                   ),
                 )
