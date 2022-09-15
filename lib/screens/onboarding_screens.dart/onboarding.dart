@@ -12,6 +12,7 @@ class _OnBoardingState extends State<OnBoarding> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.grey,
       body: SafeArea(
         child: Column(
           children: [
@@ -39,6 +40,15 @@ class _OnBoardingState extends State<OnBoarding> {
                   top: 27.h,
                   left: -48.w,
                   child: Image.asset("assets/images/onboarding1/secure.png"),
+                ),
+                Positioned(
+                  top: 280.h,
+                  left: -88,
+                  child: Container(
+                    width: MediaQuery.of(context).size.width,
+                    height: 357.h,
+                    color: Colors.white,
+                  ),
                 ),
                 Positioned(
                   top: 218.h,
