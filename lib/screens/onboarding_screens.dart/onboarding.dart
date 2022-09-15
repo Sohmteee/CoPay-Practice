@@ -16,12 +16,16 @@ class _OnBoardingState extends State<OnBoarding> {
         child: Column(
           children: [
             Row(
+              mainAxisAlignment: MainAxisAlignment.end,
               children: [
                 TextButton(
                   onPressed: () {},
                   child: const Text(
                     "Skip",
-                    st
+                    style: TextStyle(
+                        color: Colors.black,
+                        fontSize: 16,
+                        fontWeight: FontWeight.w700),
                   ),
                 )
               ],
