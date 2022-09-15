@@ -15,7 +15,13 @@ class _LaunchScreenState extends State<LaunchScreen> {
   @override
   void initState() {
     super.initState();
-    Timer(Duration(seconds: 6), () => Navigator.pushReplacement(context, newRoute))
+    Timer(
+      Duration(seconds: 6),
+      () => Navigator.pushReplacement(
+        context,
+        MaterialPageRoute(builder: (context) {}),
+      ),
+    );
   }
 
   @override
