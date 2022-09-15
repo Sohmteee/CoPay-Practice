@@ -14,15 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return ScreenUtilInit(
       designSize: const Size(375,812),
-      child: MaterialApp(
-        title: 'Co.Pay',
-        theme: ThemeData(
-          primarySwatch: primaryColorSwatch,
-          fontFamily: "Roboto",
-        ),
-        home: const LaunchScreen(),
-        debugShowCheckedModeBanner: false,
-      ),
+      builder: (_,child) {},
     );
   }
 }
