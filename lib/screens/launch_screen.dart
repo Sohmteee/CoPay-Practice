@@ -1,14 +1,21 @@
+import 'dart:async';
+
 import 'package:copay/static/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-class LaunchScreen extends StatelessWidget {
+class LaunchScreen extends StatefulWidget {
   const LaunchScreen({Key? key}) : super(key: key);
 
   @override
+  State<LaunchScreen> createState() => _LaunchScreenState();
+}
+
+class _LaunchScreenState extends State<LaunchScreen> {
+  @override
   void initState() {
     super.initState();
-    
+    Timer(Duration(seconds: 6), () => Navigator.pushReplacement(context, newRoute))
   }
 
   @override
