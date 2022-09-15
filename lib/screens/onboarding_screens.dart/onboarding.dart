@@ -36,6 +36,10 @@ class _OnBoardingState extends State<OnBoarding> {
               children: [
                 Image.asset("assets/images/onboarding1/device.png"),
                 Positioned(
+                  top: 50.h,
+                  child: Image.asset("assets/images/onboarding1/secure.png"),
+                ),
+                Positioned(
                   top: 280.h,
                   child: Container(
                     width: 375.w,
