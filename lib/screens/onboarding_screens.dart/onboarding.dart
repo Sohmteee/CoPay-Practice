@@ -17,8 +17,8 @@ class _OnBoardingState extends State<OnBoarding> {
           children: [
             Align(
               alignment: Alignment.topRight,
-              child: GestureDetector(
-                onTap: () {},
+              child: TextButton(
+                onPressed: () {},
                 child: Text(
                   "Skip",
                   style: TextStyle(
