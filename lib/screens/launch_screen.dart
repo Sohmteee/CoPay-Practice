@@ -19,7 +19,11 @@ class _LaunchScreenState extends State<LaunchScreen> {
       Duration(seconds: 6),
       () => Navigator.pushReplacement(
         context,
-        MaterialPageRoute(builder: (context) {}),
+        MaterialPageRoute(
+          builder: (_) {
+            return 
+          },
+        ),
       ),
     );
   }
