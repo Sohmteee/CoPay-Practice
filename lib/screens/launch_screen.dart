@@ -1,5 +1,6 @@
 import 'dart:async';
 
+import 'package:copay/screens/onboarding_screens.dart/onboarding.dart';
 import 'package:copay/static/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -16,13 +17,11 @@ class _LaunchScreenState extends State<LaunchScreen> {
   void initState() {
     super.initState();
     Timer(
-      Duration(seconds: 6),
+      const Duration(seconds: 6),
       () => Navigator.pushReplacement(
         context,
         MaterialPageRoute(
-          builder: (_) {
-            return 
-          },
+          builder: (_) => const OnBoarding(),
         ),
       ),
     );
