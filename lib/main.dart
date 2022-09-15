@@ -13,8 +13,18 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ScreenUtilInit(
-      designSize: const Size(375,812),
-      builder: (_,child) {},
+      designSize: const Size(375, 812),
+      builder: (_, child) {
+        return MaterialApp(
+          title: 'Co.Pay',
+          theme: ThemeData(
+            primarySwatch: primaryColorSwatch,
+            fontFamily: "Roboto",
+          ),
+          home: const LaunchScreen(),
+          debugShowCheckedModeBanner: false,
+        );
+      },
     );
   }
 }

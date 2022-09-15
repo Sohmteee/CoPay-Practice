@@ -1,5 +1,6 @@
 import 'package:copay/static/colors.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class LaunchScreen extends StatelessWidget {
   const LaunchScreen({Key? key}) : super(key: key);
@@ -15,7 +16,7 @@ class LaunchScreen extends StatelessWidget {
             Image.asset("assets/images/copay_logo.png"),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
-              children: const [
+              children: [
                 Text(
                   "Co",
                   style: TextStyle(
