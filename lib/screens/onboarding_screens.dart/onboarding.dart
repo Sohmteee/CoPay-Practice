@@ -33,11 +33,12 @@ class _OnBoardingState extends State<OnBoarding> {
             ),
             SizedBox(height: 83.h),
             Stack(
+              clipBehavior: Clip.none,
               children: [
                 Image.asset("assets/images/onboarding1/device.png"),
                 Positioned(
                   top: 38.h,
-                  left: -26.w,
+                  left: -50.w,
                   child: Image.asset("assets/images/onboarding1/secure.png"),
                 ),
                 Positioned(
