@@ -41,12 +41,16 @@ class _OnBoardingState extends State<OnBoarding> {
                   left: -48.w,
                   child: Image.asset("assets/images/onboarding1/secure.png"),
                 ),
-                Positioned(
-                  top: 280.h,
-                  child: Container(
-                    width: MediaQuery.of(context).size.width,
-                    height: 357.h,
-                    color: Colors.white,
+                Alignment(
+                  align
+                  child: Positioned(
+                    
+                    top: 280.h,
+                    child: Container(
+                      width: MediaQuery.of(context).size.width,
+                      height: 357.h,
+                      color: Colors.white,
+                    ),
                   ),
                 )
               ],
