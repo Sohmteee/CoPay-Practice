@@ -40,7 +40,6 @@ class _OnBoardingState extends State<OnBoarding> {
                 ),
                 Positioned(
                   top: 280.h,
-                  left: -88.w,
                   child: Container(
                     width: MediaQuery.of(context).size.width,
                     height: 357.h,
