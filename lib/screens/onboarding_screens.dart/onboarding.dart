@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class OnBoarding extends StatefulWidget {
   const OnBoarding({Key? key}) : super(key: key);
@@ -20,11 +21,11 @@ class _OnBoardingState extends State<OnBoarding> {
               children: [
                 TextButton(
                   onPressed: () {},
-                  child: const Text(
+                  child: Text(
                     "Skip",
                     style: TextStyle(
                         color: Colors.black,
-                        fontSize: 16,
+                        fontSize: 16.sp,
                         fontWeight: FontWeight.w700),
                   ),
                 )
