@@ -6,6 +6,12 @@ class LaunchScreen extends StatelessWidget {
   const LaunchScreen({Key? key}) : super(key: key);
 
   @override
+  void initState() {
+    super.initState();
+    
+  }
+
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: primaryColor,
@@ -14,7 +20,7 @@ class LaunchScreen extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Image.asset("assets/images/copay_logo.png"),
-            SizedBox(height: 20,),
+            SizedBox(height: 15.sp),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
