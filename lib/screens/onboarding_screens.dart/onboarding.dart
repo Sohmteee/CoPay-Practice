@@ -31,6 +31,12 @@ class _OnBoardingState extends State<OnBoarding> {
                 )
               ],
             ),
+            SizedBox(height: 83.h),
+            Stack(
+              children: [
+                
+              ],
+            )
           ],
         ),
       ),
