@@ -33,9 +33,7 @@ class _OnBoardingState extends State<OnBoarding> {
             ),
             SizedBox(height: 83.h),
             Stack(
-              children: [
-                
-              ],
+              children: [Image.asset("assets/images/onboarding1/device.png"),],
             )
           ],
         ),
