@@ -31,44 +31,26 @@ class _OnBoardingState extends State<OnBoarding> {
               ],
             ),
             SizedBox(height: 83.h),
-            Column(
+            Stack(
+              clipBehavior: Clip.none,
               children: [
-                Stack(
-                  clipBehavior: Clip.none,
-                  children: [
-                    Stack(
-                      clipBehavior: Clip.none,
-                      children: [
-                        Image.asset("assets/images/onboarding1/device.png"),
-                        Positioned(
-                          top: 27.h,
-                          left: -48.w,
-                          child: Image.asset(
-                              "assets/images/onboarding1/secure.png"),
-                        ),
-                        Positioned(
-                          top: 218.h,
-                          left: -55.w,
-                          child: Image.asset(
-                              "assets/images/onboarding1/direct_deposit.png"),
-                        ),
-                        Positioned(
-                          top: 145.h,
-                          right: -55.w,
-                          child: Image.asset(
-                              "assets/images/onboarding1/this_month.png"),
-                        ),
-                      ],
-                    ),
-                    Positioned(
-                      top: 280.h,
-                      child: Container(
-                        width: MediaQuery.of(context).size.width,
-                        height: 357.h,
-                        color: Colors.white,
-                      ),
-                    ),
-                  ],
+                Image.asset("assets/images/onboarding1/device.png"),
+                Positioned(
+                  top: 27.h,
+                  left: -48.w,
+                  child: Image.asset("assets/images/onboarding1/secure.png"),
+                ),
+                Positioned(
+                  top: 218.h,
+                  left: -55.w,
+                  child: Image.asset(
+                      "assets/images/onboarding1/direct_deposit.png"),
+                ),
+                Positioned(
+                  top: 145.h,
+                  right: -55.w,
+                  child:
+                      Image.asset("assets/images/onboarding1/this_month.png"),
                 ),
               ],
             )
