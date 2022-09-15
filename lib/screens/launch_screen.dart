@@ -19,7 +19,6 @@ class LaunchScreen extends StatelessWidget {
                 Text(
                   "Co",
                   style: TextStyle(
-                    fontFamily: "Roboto",
                     color: Colors.black,
                     fontSize: 32,
                   ),

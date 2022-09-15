@@ -15,6 +15,7 @@ class MyApp extends StatelessWidget {
       title: 'Co.Pay',
       theme: ThemeData(
         primarySwatch: primaryColorSwatch,
+        fontFamily: "Roboto",
       ),
       home: const LaunchScreen(),
       debugShowCheckedModeBanner: false,
