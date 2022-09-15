@@ -12,7 +12,13 @@ class _OnBoardingState extends State<OnBoarding> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SafeArea(
-        child: Column(),
+        child: Column(
+          children: [
+            Row(
+              children: [TextButton(onPressed: () {}, child: child)],
+            ),
+          ],
+        ),
       ),
     );
   }
