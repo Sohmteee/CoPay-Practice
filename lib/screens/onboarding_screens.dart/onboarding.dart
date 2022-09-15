@@ -20,7 +20,7 @@ class _OnBoardingState extends State<OnBoarding> {
               child: TextButton(
                 onPressed: () {},
                 child: Text(
-                  "Skip",s
+                  "Skip",
                   style: TextStyle(
                       color: Colors.black,
                       fontSize: 16.sp,
