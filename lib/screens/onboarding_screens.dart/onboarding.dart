@@ -15,20 +15,18 @@ class _OnBoardingState extends State<OnBoarding> {
       body: SafeArea(
         child: Column(
           children: [
-            Row(
-              mainAxisAlignment: MainAxisAlignment.end,
-              children: [
-                TextButton(
-                  onPressed: () {},
-                  child: Text(
-                    "Skip",
-                    style: TextStyle(
-                        color: Colors.black,
-                        fontSize: 16.sp,
-                        fontWeight: FontWeight.w700),
-                  ),
-                )
-              ],
+            Align(
+              alignment: Alignment.topRight,
+              child: TextButton(
+                onPressed: () {},
+                child: Text(
+                  "Skip",s
+                  style: TextStyle(
+                      color: Colors.black,
+                      fontSize: 16.sp,
+                      fontWeight: FontWeight.w700),
+                ),
+              ),
             ),
             SizedBox(height: 83.h),
             Stack(
