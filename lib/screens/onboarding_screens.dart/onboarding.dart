@@ -35,8 +35,14 @@ class _OnBoardingState extends State<OnBoarding> {
             Stack(
               children: [
                 Image.asset("assets/images/onboarding1/device.png"),
-
-                Positioned(child: Conata)
+                Positioned(
+                  top: 280.h,
+                  child: Expanded(
+                    child: Container(
+                      color: Colors.white,
+                    ),
+                  ),
+                )
               ],
             )
           ],
