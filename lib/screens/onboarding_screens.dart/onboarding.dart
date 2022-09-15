@@ -42,6 +42,14 @@ class _OnBoardingState extends State<OnBoarding> {
                   child: Image.asset("assets/images/onboarding1/secure.png"),
                 ),
                 Positioned(
+                  top: 280.h,
+                  child: Container(
+                    width: MediaQuery.of(context).size.width,
+                    height: 357.h,
+                    color: Colors.white,
+                  ),
+                ),
+                Positioned(
                   top: 200.h,
                   left: -55.w,
                   child: Image.asset(
@@ -53,14 +61,6 @@ class _OnBoardingState extends State<OnBoarding> {
                   child:
                       Image.asset("assets/images/onboarding1/this_month.png"),
                 ),
-                Positioned(
-                  top: 280.h,
-                  child: Container(
-                    width: MediaQuery.of(context).size.width,
-                    height: 357.h,
-                    color: Colors.white,
-                  ),
-                )
               ],
             )
           ],
