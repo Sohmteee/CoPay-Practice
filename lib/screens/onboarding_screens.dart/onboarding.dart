@@ -42,8 +42,12 @@ class _OnBoardingState extends State<OnBoarding> {
                   child: Image.asset("assets/images/onboarding1/secure.png"),
                 ),
                 Positioned(
+                  child: Image.asset(
+                      "assets/images/onboarding1/direct_deposit.png"),
+                ),
+                Positioned(
                   top: 145.h,
-                  right: -48.w,
+                  right: -55.w,
                   child:
                       Image.asset("assets/images/onboarding1/this_month.png"),
                 ),
